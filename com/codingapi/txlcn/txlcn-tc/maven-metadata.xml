@@ -3,10 +3,10 @@
   <groupId>com.codingapi.txlcn</groupId>
   <artifactId>txlcn-tc</artifactId>
   <versioning>
-    <release>5.0.5.RELEASE</release>
+    <release>5.0.3.RELEASE</release>
     <versions>
-      <version>5.0.5.RELEASE</version>
+      <version>5.0.3.RELEASE</version>
     </versions>
-    <lastUpdated>20210628155037</lastUpdated>
+    <lastUpdated>20210809040908</lastUpdated>
   </versioning>
 </metadata>
