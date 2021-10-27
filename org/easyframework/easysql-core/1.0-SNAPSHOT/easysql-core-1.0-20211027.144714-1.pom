@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.easyframework</groupId>
+        <artifactId>easysql</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>easysql-core</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.easyframework</groupId>
+            <artifactId>easysql-beetlsql</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.2.3.RELEASE</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>4.2.3.RELEASE</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
