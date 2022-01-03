@@ -3,10 +3,11 @@
   <groupId>org.easyframework</groupId>
   <artifactId>easyutils</artifactId>
   <versioning>
-    <release>1.1.1-RELEASE</release>
+    <release>1.1.1.RELEASE</release>
     <versions>
       <version>1.1.1-RELEASE</version>
+      <version>1.1.1.RELEASE</version>
     </versions>
-    <lastUpdated>20220103154517</lastUpdated>
+    <lastUpdated>20220103154650</lastUpdated>
   </versioning>
 </metadata>
