@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.easyframework.easyfeign</groupId>
+  <artifactId>easybyte-test-a</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220317095003</lastUpdated>
+  </versioning>
+</metadata>
