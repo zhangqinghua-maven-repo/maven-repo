@@ -34,13 +34,5 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.76</version>
         </dependency>
-
-        <!--apache网络请求-->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>fluent-hc</artifactId>
-            <version>4.5.13</version>
-        </dependency>
-
     </dependencies>
 </project>
