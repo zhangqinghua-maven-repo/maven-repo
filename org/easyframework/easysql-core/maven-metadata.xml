@@ -3,10 +3,10 @@
   <groupId>org.easyframework</groupId>
   <artifactId>easysql-core</artifactId>
   <versioning>
-    <release>1.1.6.easybyte-RELEASE</release>
+    <release>1.1.7.easybyte-RELEASE</release>
     <versions>
-      <version>1.1.6.easybyte-RELEASE</version>
+      <version>1.1.7.easybyte-RELEASE</version>
     </versions>
-    <lastUpdated>20220421075612</lastUpdated>
+    <lastUpdated>20220531022521</lastUpdated>
   </versioning>
 </metadata>
