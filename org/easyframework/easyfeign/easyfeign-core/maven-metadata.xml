@@ -3,7 +3,7 @@
   <groupId>org.easyframework.easyfeign</groupId>
   <artifactId>easyfeign-core</artifactId>
   <versioning>
-    <release>1.1.9-RELEASE</release>
+    <release>1.1.10-RELEASE</release>
     <versions>
       <version>1.1.4-RELEASE</version>
       <version>1.1.5-RELEASE</version>
@@ -11,7 +11,8 @@
       <version>1.1.7-RELEASE</version>
       <version>1.1.8-RELEASE</version>
       <version>1.1.9-RELEASE</version>
+      <version>1.1.10-RELEASE</version>
     </versions>
-    <lastUpdated>20220616082429</lastUpdated>
+    <lastUpdated>20220623033049</lastUpdated>
   </versioning>
 </metadata>
