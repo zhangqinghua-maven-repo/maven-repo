@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.codingapi.txlcn</groupId>
+  <artifactId>txlcn-common</artifactId>
+  <versioning>
+    <versions>
+      <version>5.0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220713085514</lastUpdated>
+  </versioning>
+</metadata>
