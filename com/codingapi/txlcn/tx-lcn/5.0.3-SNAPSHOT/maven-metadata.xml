@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.codingapi.txlcn</groupId>
+  <artifactId>tx-lcn</artifactId>
+  <version>5.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220713.085425</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20220713085425</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.0.3-20220713.085425-2</value>
+        <updated>20220713085425</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
