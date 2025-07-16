@@ -5,19 +5,8 @@
   <versioning>
     <release>1.1.15.RELEASE</release>
     <versions>
-      <version>1.1.4-RELEASE</version>
-      <version>1.1.5-RELEASE</version>
-      <version>1.1.6-RELEASE</version>
-      <version>1.1.7-RELEASE</version>
-      <version>1.1.8-RELEASE</version>
-      <version>1.1.9-RELEASE</version>
-      <version>1.1.10-RELEASE</version>
-      <version>1.1.11.RELEASE</version>
-      <version>1.1.12.RELEASE</version>
-      <version>1.1.13.RELEASE</version>
-      <version>1.1.14.RELEASE</version>
       <version>1.1.15.RELEASE</version>
     </versions>
-    <lastUpdated>20230522020333</lastUpdated>
+    <lastUpdated>20250716114230</lastUpdated>
   </versioning>
 </metadata>
