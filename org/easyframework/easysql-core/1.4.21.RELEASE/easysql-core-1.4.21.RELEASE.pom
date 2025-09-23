@@ -31,7 +31,7 @@
         <dependency>
             <groupId>org.easyframework</groupId>
             <artifactId>easysql-beetlsql</artifactId>
-            <version>1.1.8-RELEASE</version>
+            <version>1.1.9-RELEASE</version>
         </dependency>
 
         <dependency>
