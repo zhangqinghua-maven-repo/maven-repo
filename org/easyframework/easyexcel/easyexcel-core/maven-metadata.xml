@@ -3,11 +3,12 @@
   <groupId>org.easyframework.easyexcel</groupId>
   <artifactId>easyexcel-core</artifactId>
   <versioning>
-    <release>2.0.1.RELEASE</release>
+    <release>2.0.2.RELEASE</release>
     <versions>
       <version>2.0.0.RELEASE</version>
       <version>2.0.1.RELEASE</version>
+      <version>2.0.2.RELEASE</version>
     </versions>
-    <lastUpdated>20251106104941</lastUpdated>
+    <lastUpdated>20251127034226</lastUpdated>
   </versioning>
 </metadata>
