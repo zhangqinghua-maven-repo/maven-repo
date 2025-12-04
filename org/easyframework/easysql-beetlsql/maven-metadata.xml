@@ -3,14 +3,15 @@
   <groupId>org.easyframework</groupId>
   <artifactId>easysql-beetlsql</artifactId>
   <versioning>
-    <release>1.1.11-RELEASE</release>
+    <release>1.1.12-RELEASE</release>
     <versions>
       <version>1.1.7-RELEASE</version>
       <version>1.1.8-RELEASE</version>
       <version>1.1.9-RELEASE</version>
       <version>1.1.10-RELEASE</version>
       <version>1.1.11-RELEASE</version>
+      <version>1.1.12-RELEASE</version>
     </versions>
-    <lastUpdated>20251113082706</lastUpdated>
+    <lastUpdated>20251204111615</lastUpdated>
   </versioning>
 </metadata>
