@@ -3,13 +3,14 @@
   <groupId>org.easyframework</groupId>
   <artifactId>easyutils</artifactId>
   <versioning>
-    <release>1.1.13.RELEASE</release>
+    <release>1.1.14.RELEASE</release>
     <versions>
       <version>1.1.9.RELEASE</version>
       <version>1.1.11.RELEASE</version>
       <version>1.1.12.RELEASE</version>
       <version>1.1.13.RELEASE</version>
+      <version>1.1.14.RELEASE</version>
     </versions>
-    <lastUpdated>20251029034127</lastUpdated>
+    <lastUpdated>20251204095150</lastUpdated>
   </versioning>
 </metadata>
