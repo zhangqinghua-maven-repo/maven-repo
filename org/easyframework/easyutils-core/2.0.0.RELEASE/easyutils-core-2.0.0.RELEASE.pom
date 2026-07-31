@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.easyframework</groupId>
+        <artifactId>easyutils</artifactId>
+        <version>2.0.0.RELEASE</version>
+    </parent>
+
+    <artifactId>easyutils-core</artifactId>
+
+    <name>easyutils Core</name>
+    <description>通用 JVM Bean 映射工具核心库 — 高性能对象转换、深拷贝、泛型解析</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.7</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--发布源码-->
+            <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <attach>true</attach>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <phase>compile</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!--发布到Github上-->
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <altDeploymentRepository>maven.repo::default::file://${project.build.directory}/mvn-repo
+                    </altDeploymentRepository>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>com.github.github</groupId>
+                <artifactId>site-maven-plugin</artifactId>
+                <version>0.12</version>
+                <configuration>
+                    <message>Maven artifacts for ${project.version}</message>
+                    <noJekyll>true</noJekyll>
+                    <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
+                    <branch>refs/heads/RELEASE.2.0</branch>
+                    <includes>
+                        <include>**/*</include>
+                    </includes>
+                    <merge>true</merge>
+                    <server>github</server>
+                    <repositoryName>maven-repo</repositoryName>
+                    <repositoryOwner>zhangqinghua-maven-repo</repositoryOwner>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--它的作用是将依赖安装在本地，以便后面我们用来上传到 GitHub。-->
+    <distributionManagement>
+        <repository>
+            <id>maven.repo</id>
+            <name>Local Staging Repository</name>
+            <url>file://${project.build.directory}/mvn-repo</url>
+        </repository>
+    </distributionManagement>
+</project>
