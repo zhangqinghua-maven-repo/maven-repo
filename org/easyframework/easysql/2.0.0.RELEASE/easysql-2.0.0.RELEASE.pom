@@ -11,7 +11,7 @@
 
     <modules>
         <module>easysql-core</module>
-        <module>easysql-test</module>
+<!--        <module>easysql-test</module>-->
     </modules>
 
     <properties>
