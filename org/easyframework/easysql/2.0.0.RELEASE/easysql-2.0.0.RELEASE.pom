@@ -36,7 +36,7 @@
 
         <!-- Third-party -->
         <jakarta-annotation-api.version>3.0.0</jakarta-annotation-api.version>
-        <easyutils-core.version>2.0.0.RELEASE</easyutils-core.version>
+        <easyutils-core.version>2.0.1.RELEASE</easyutils-core.version>
     </properties>
 
     <dependencyManagement>
